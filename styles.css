@@ -1,0 +1,182 @@
+.nav{
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+}
+.nav .logo img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .nav-links ul{
+    list-style-type: none;
+}
+
+.nav .nav-links ul li{
+    display: inline-flex;
+    margin-left: 10px;
+}
+.nav .nav-links ul li a{
+    text-decoration: dotted;
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+}
+.nav .nav-links ul{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.banner{
+    width: 100vw;
+    height: 70vh;
+    background-image: url(IMG_5626.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+  .banner .info-text .info-content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(22, 8, 8);
+  }
+.banner-buttons a{
+    text-decoration: none;
+    background-color: rgba(148, 233, 248, 0.295);
+    color: black;
+    width: 100px;
+    height: 25px;
+    display: inline-block;
+    border-radius: none;
+    text-align: center;
+    padding: auto;
+    }
+
+    .body{
+        font-family: 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: #333;
+    }
+
+    .header{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header h1{
+        margin: 0%;
+        font-size: 2.8em;
+    }
+    
+    .nav{
+        display: flex;
+        justify-content: center;
+        background-color: #222;
+        padding: 0.5em 0;
+    }
+
+    .nav a{
+        color: antiquewhite;
+        text-decoration: none;
+        margin: 0 1em;
+        font-size: 1.2em;
+    }
+
+    .nav a:hover{
+        color: #00bcd4;
+    }
+
+    .section{
+        padding: 50px;
+        text-align: center;
+    }
+
+    #about{
+        background-color: #f7e9e9;
+        color: #fff;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #about h1{
+        font-size: 3em;
+        margin: 0;
+
+    }
+    #gallery{
+        background-color: #fff;
+    }
+
+    #services{
+        background-color: #f4f4f4;
+    }
+
+    #contact form{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    #contact form input,
+    #contact form textarea{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    #contact form button{
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background: #333;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+    #contact form button:hover{
+        background: #f39c12;
+    }
+    #contact{
+        background-color: #e9e9e9;
+    }
+    
+    .gallery-grid{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+    }
+
+    .gallery-grid img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .footer{
+
+        background: #333;
+        color: antiquewhite;
+        text-align: center;
+        padding: 15px;
+        font-size: 0.9em;
+    }
