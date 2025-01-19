@@ -6,3 +6,5 @@ Discover the art of storytelling through surreal visual. At Merrissa Symphony St
 [Gallery](#Gallery)
 [Services](#Services)
 [Contact](#Contact)
+
+#Author is Tandie Oyucho
